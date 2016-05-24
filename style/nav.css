@@ -6,7 +6,35 @@
 }
 
 .nav_mobile {
+    position: absolute;
+    top: 0;
+    right: 0;
     padding: 10px;
+    opacity: 1;
+    transition: opacity .75s ease;
+}
+
+.nav_mobile.ng-hide {
+    opacity: 0;
+}
+
+.nav_mobile_x {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    opacity: 1;
+    transition: opacity .75s ease;
+}
+
+.nav_mobile_x.ng-hide {
+    opacity: 0;
+}
+
+/*This icon exists to keep the transition elements from stacking on top of each other*/
+.nav_mobile_dummy_icon {
+    padding: 10px;
+    color: black;
 }
 
 /*initial mobile state*/
@@ -22,6 +50,12 @@
 
 @media (min-width: 768px) {
     .nav_mobile {
+        display: none;
+    }
+    .nav_mobile_x {
+        display: none;
+    }
+    .nav_mobile_dummy_icon {
         display: none;
     }
     .nav_desktop {
