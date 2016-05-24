@@ -2,7 +2,7 @@ angular.module('adamShaleen').directive('navBar', function() {
 
     return {
         restrict: 'EA',
-        templateUrl: 'nav.html'
+        templateUrl: './html/nav.html'
     };
 
 });  // closing tag

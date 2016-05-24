@@ -4,31 +4,31 @@ angular.module('adamShaleen', ['ui.router', 'ngAnimate'])
     $stateProvider
         .state('home', {
             url: '/home',
-            templateUrl: '../html/home.html',
+            templateUrl: './html/home.html',
             controller: 'homeController',
         })
 
         .state('about', {
             url: '/about',
-            templateUrl: '../html/about.html',
+            templateUrl: './html/about.html',
             controller: 'aboutController'
         })
 
         .state('skills', {
             url: '/skills',
-            templateUrl: '../html/skills.html',
+            templateUrl: './html/skills.html',
             controller: 'skillsController'
         })
 
         .state('work', {
             url: '/work',
-            templateUrl: '../html/work.html',
+            templateUrl: './html/work.html',
             controller: 'workController'
         })
 
         .state('fun', {
             url: '/fun',
-            templateUrl: '../html/fun.html',
+            templateUrl: './html/fun.html',
             controller: 'funController'
         });
 

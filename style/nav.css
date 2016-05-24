@@ -1,3 +1,39 @@
 .nav_container {
-    width: 100%;
+    background: black;
+    margin: auto;
+    text-align: right;
+    color: white;
+}
+
+.nav_mobile {
+    padding: 10px;
+}
+
+/*initial mobile state*/
+.nav_desktop {
+    display: none;
+}
+
+
+
+
+
+/*===========================Media Queries====================================*/
+
+@media (min-width: 768px) {
+    .nav_mobile {
+        display: none;
+    }
+    .nav_desktop {
+        display: block;
+        font-size: 25px;
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+    }
+    .nav_desktop span {
+        margin: 10px;
+
+    }
 }
