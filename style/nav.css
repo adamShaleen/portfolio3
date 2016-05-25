@@ -31,7 +31,7 @@
     opacity: 0;
 }
 
-/*This icon exists to keep the transition elements from stacking on top of each other*/
+/*This icon exists to keep the mobile menu transition elements from stacking on top of each other*/
 .nav_mobile_dummy_icon {
     padding: 10px;
     color: black;
@@ -50,17 +50,17 @@
     width: 100%;
     overflow: auto;
     font-size: 40px;
-    margin-top: -228px;
+    margin-top: 0px;
     transition: margin-top .75s ease;
+    font-family: Yantramanav;
 }
 .nav_dropdown_mobile.ng-hide {
-    margin-top: 0px;
+    margin-top: -290px;
 }
-
 .nav_dropdown_mobile a {
     text-decoration: none;
     color: black;
-    /*border-bottom: 1px solid;*/
+    border-bottom: 1px solid;
 }
 
 /*===========================Media Queries====================================*/
@@ -80,15 +80,20 @@
     }
     .nav_desktop {
         display: block;
-        font-size: 25px;
+        font-size: 30px;
         margin: auto;
         padding-top: 15px;
         padding-bottom: 15px;
         padding-right: 15px;
+        font-family: Yantramanav;
     }
     .nav_desktop a {
         text-decoration: none;
         color: white;
+    }
+    .nav_desktop a:hover {
+        text-decoration: none;
+        color: rgb(195, 195, 195);
     }
     .nav_desktop span {
         margin: 10px;
