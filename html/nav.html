@@ -3,14 +3,14 @@
     <div class="nav_mobile" ng-click="toggleBurger()" ng-show="burgerChangeToX"><i class="fa fa-bars fa-2x"></i></div>
     <div class="nav_mobile_x" ng-click="toggleBurger()" ng-hide="burgerChangeToX"><i class="fa fa-times fa-2x"></i></div>
     <div class="nav_mobile_dummy_icon"><i class="fa fa-bars fa-2x"></i></div>
-    <div class="nav_desktop"><a ui-sref="about"><a ui-sref="home"><span>Home</span></a><a ui-sref="about"><span>About</span></a></><a ui-sref="skills"><span>Skills</span></a><a ui-sref="work"><span>Work</span></a><a ui-sref="fun"><span>Fun</span></a></div>
+    <div class="nav_desktop"><a ui-sref="about"><a ui-sref-active="selected" ui-sref="home"><span>Home</span></a><a ui-sref-active="selected" ui-sref="about"><span>About</span></a></><a ui-sref-active="selected" ui-sref="skills"><span>Skills</span></a><a ui-sref-active="selected" ui-sref="work"><span>Work</span></a><a ui-sref-active="selected" ui-sref="fun"><span>Fun</span></a></div>
 </div>
 
-<!--Dropdown menu on mobile  (remove nav buttons when on their state)-->
+<!--Dropdown menu on mobile-->
 <div ng-hide="burgerChangeToX" class="nav_dropdown_mobile">
-    <a ui-sref="home">Home</a>
-    <a ui-sref="about">About</a>
-    <a ui-sref="skills">Skills</a>
-    <a ui-sref="work">Work</a>
-    <a ui-sref="fun">Fun</a>
+    <a ui-sref-active="selected" ui-sref="home">Home</a>
+    <a ui-sref-active="selected" ui-sref="about">About</a>
+    <a ui-sref-active="selected" ui-sref="skills">Skills</a>
+    <a  ui-sref-active="selected"ui-sref="work">Work</a>
+    <a ui-sref-active="selected" ui-sref="fun">Fun</a>
 </div>

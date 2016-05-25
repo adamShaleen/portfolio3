@@ -62,7 +62,10 @@
     color: black;
     border-bottom: 1px solid;
 }
-
+/*Styling class for current view so that it is hidden when active.  Used with ui-sref=active*/
+.selected {
+    display: none;
+}
 /*===========================Media Queries====================================*/
 
 @media (min-width: 768px) {
