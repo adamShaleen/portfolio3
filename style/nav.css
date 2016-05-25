@@ -50,7 +50,13 @@
     width: 100%;
     overflow: auto;
     font-size: 40px;
+    margin-top: -228px;
+    transition: margin-top .75s ease;
 }
+.nav_dropdown_mobile.ng-hide {
+    margin-top: 0px;
+}
+
 .nav_dropdown_mobile a {
     text-decoration: none;
     color: black;
@@ -79,6 +85,10 @@
         padding-top: 15px;
         padding-bottom: 15px;
         padding-right: 15px;
+    }
+    .nav_desktop a {
+        text-decoration: none;
+        color: white;
     }
     .nav_desktop span {
         margin: 10px;
