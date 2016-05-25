@@ -42,9 +42,20 @@
     display: none;
 }
 
-
-
-
+/*Mobile navbar dropdown*/
+.nav_dropdown_mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+    font-size: 40px;
+}
+.nav_dropdown_mobile a {
+    text-decoration: none;
+    color: black;
+    /*border-bottom: 1px solid;*/
+}
 
 /*===========================Media Queries====================================*/
 
@@ -56,6 +67,9 @@
         display: none;
     }
     .nav_mobile_dummy_icon {
+        display: none;
+    }
+    .nav_dropdown_mobile {
         display: none;
     }
     .nav_desktop {
