@@ -20,3 +20,8 @@
     text-decoration: none;
     color: white;
 }
+
+.icons a:hover {
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+}

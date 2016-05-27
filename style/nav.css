@@ -53,6 +53,8 @@
     margin-top: 0px;
     transition: margin-top .75s ease;
     font-family: Yantramanav;
+    position: absolute;
+    background: white;
 }
 .nav_dropdown_mobile.ng-hide {
     margin-top: -290px;
