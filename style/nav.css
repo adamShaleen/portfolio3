@@ -3,6 +3,9 @@
     margin: auto;
     text-align: right;
     color: white;
+    width: 100%;
+    z-index: 5;
+    position: absolute;
 }
 
 .nav_mobile {
@@ -50,14 +53,14 @@
     width: 100%;
     overflow: auto;
     font-size: 40px;
-    margin-top: 0px;
+    margin-top: 50px;
     transition: margin-top .75s ease;
     font-family: Yantramanav;
     position: absolute;
     background: white;
 }
 .nav_dropdown_mobile.ng-hide {
-    margin-top: -290px;
+    margin-top: -400px;
 }
 .nav_dropdown_mobile a {
     text-decoration: none;
