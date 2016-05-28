@@ -10,12 +10,26 @@
     text-shadow: 1px 1px black;
 }
 
-
+.home_title_container_desktop {
+    display: none;
+}
 
 /*==================MEDIA QUERIES=========================================*/
 
 @media (min-width: 768px) {
     .home_title_container_mobile {
         display: none;
+    }
+    .home_title_container_desktop {
+        display: block;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-family: Yantramanav;
+        font-size: 59px;
+        text-shadow: 1px 1px black;
+        background: black;
     }
 }
