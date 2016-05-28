@@ -1,0 +1,21 @@
+.home_title_container_mobile {
+    position: absolute;
+    width: 100%;
+    top: 77vh;
+    color: white;
+    text-align: center;
+    font-size: 7vw;
+    font-family: Yantramanav;
+    line-height: 1.0;
+    text-shadow: 1px 1px black;
+}
+
+
+
+/*==================MEDIA QUERIES=========================================*/
+
+@media (min-width: 768px) {
+    .home_title_container_mobile {
+        display: none;
+    }
+}
