@@ -10,9 +10,9 @@
     text-shadow: 1px 1px black;
 }
 
-.home_title_container_desktop {
+/*.home_title_container_desktop {
     display: none;
-}
+}*/
 
 /*==================MEDIA QUERIES=========================================*/
 
@@ -20,7 +20,7 @@
     .home_title_container_mobile {
         display: none;
     }
-    .home_title_container_desktop {
+    /*.home_title_container_desktop {
         display: block;
         position: absolute;
         top: 50%;
@@ -31,5 +31,6 @@
         font-size: 59px;
         text-shadow: 1px 1px black;
         background: black;
-    }
+        opacity: .75;
+    }*/
 }
