@@ -19,6 +19,11 @@
     display: none;
 }
 
+.blue_wolf_mobile {
+    margin-top: 90px;
+    height: 58vh;
+}
+
 /*=======================Media Queries========================*/
 
 @media (min-width: 768px) {
