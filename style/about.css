@@ -42,11 +42,12 @@
     font-style: italic;
 }
 
-.about_container_desktop {
-    display: none;
-}
 
-.wolf_row {
+/*.wolf_row {
+    display: none;
+}*/
+
+.content_container_desktop {
     display: none;
 }
 
@@ -57,7 +58,7 @@
         display: none;
     }
 
-    .wolf_row {
+    /*.wolf_row {
         display: flex;
         background: rgb(44, 45, 45);
         justify-content: center;
@@ -68,5 +69,80 @@
         width: 215px;
         margin-left: 10px;
         margin-right: 10px;
+    }*/
+
+    .content_container_desktop {
+        display: block;
+        background: rgb(44, 45, 45);
+        height: 100%;
+    }
+    .wolf_row_container {
+        display: flex;
+        justify-content: center;
+    }
+    .wolf_row_container img {
+        margin-top: 80px;
+        width: 215px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .content_desktop {
+        font-family: Yantramanav;
+        color: white;
+        text-shadow: 1px 1px black;
+        text-align: center;
+    }
+    .section_title_desktop {
+        font-size: 50px;
+    }
+    .section_content_desktop {
+        font-size: 22px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .about_image_desktop {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    #about_image_desktop_1 {
+        background: url('../img/good_headshot.jpeg');
+        background-size: cover;
+        background-position: center;
+        width: 25%;
+        height: 190px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3%;
+    }
+    #about_image_desktop_2 {
+        background: url('../img/good_headshot.jpeg');
+        background-size: cover;
+        background-position: center;
+        width: 25%;
+        height: 190px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3%;
+    }
+    #about_image_desktop_3 {
+        background: url('../img/good_headshot.jpeg');
+        background-size: cover;
+        background-position: center;
+        width: 25%;
+        height: 190px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3%;
+    }
+    .quote_desktop {
+        font-family: Yantramanav;
+        color: white;
+        text-shadow: 1px 1px black;
+        text-align: center;
+        font-size: 22px;
+    }
+    .quote_desktop span {
+        font-style: italic;
     }
 }
