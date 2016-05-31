@@ -21,6 +21,7 @@
     font-size: 5vw;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 20px;
 }
 
 .about_image_mobile {
@@ -36,12 +37,12 @@
 
 .quote_mobile {
     font-size: 5vw;
+    margin-bottom: 20px;
 }
 
 .quote_mobile span {
     font-style: italic;
 }
-
 
 /*.wolf_row {
     display: none;
@@ -99,41 +100,13 @@
         font-size: 22px;
         margin-left: 10vw;
         margin-right: 10vw;
+        text-align: justify;
+        margin-bottom: 20px;
     }
     .about_image_desktop {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
-    }
-    #about_image_desktop_1 {
-        background: url('../img/good_headshot.jpeg');
-        background-size: cover;
-        background-position: center;
-        width: 25%;
-        height: 190px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-radius: 3%;
-    }
-    #about_image_desktop_2 {
-        background: url('../img/good_headshot.jpeg');
-        background-size: cover;
-        background-position: center;
-        width: 25%;
-        height: 190px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-radius: 3%;
-    }
-    #about_image_desktop_3 {
-        background: url('../img/good_headshot.jpeg');
-        background-size: cover;
-        background-position: center;
-        width: 25%;
-        height: 190px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-radius: 3%;
     }
     .quote_desktop {
         font-family: Yantramanav;
@@ -142,7 +115,59 @@
         text-align: center;
         font-size: 22px;
     }
+    .about_image_container_desktop {
+        display: flex;
+        justify-content: center;
+    }
+    .about_image_desktop {
+        background: url('../img/good_headshot.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 615px;
+        height: 503px;
+        border-radius: 3%;
+        margin-bottom: 10px;
+    }
+    .quote_desktop {
+        margin-bottom: 20px;
+    }
     .quote_desktop span {
         font-style: italic;
+    }
+}
+
+@media (min-width: 1000px) {
+    .content_desktop {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content_desktop {
+        margin-left: 14vw;
+        margin-right: 14vw;
+    }
+}
+
+@media (min-width: 1400px) {
+    .content_desktop {
+        margin-left: 18vw;
+        margin-right: 18vw;
+    }
+}
+
+@media (min-width: 1600px) {
+    .content_desktop {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+
+@media (min-width: 1800px) {
+    .content_desktop {
+        margin-left: 23vw;
+        margin-right: 23vw;
     }
 }

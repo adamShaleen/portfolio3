@@ -1,11 +1,28 @@
-.skills_image_mobile {
+.skills_icons_mobile {
+    background: url('../img/mean.png');
     margin: auto;
     width: 80%;
-    height: 210px;
-    background: url('../img/mean.jpg');
+    height: 130px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 3%;
     margin-bottom: 10px;
+}
+
+.skills_icon_container_desktop {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.skills_icons img {
+    width: 20vw;
+    height: 15vh;
 }
