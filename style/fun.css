@@ -1,0 +1,23 @@
+.fun_image_mobile {
+    background: url('../img/hike.JPG');
+    background-size: cover;
+    height: 38vh;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.fun_image_container_desktop {
+    display: flex;
+    justify-content: center;
+}
+
+.fun_image_desktop {
+    background: url('../img/hike.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 615px;
+    height: 503px;
+    margin-bottom: 10px;
+}

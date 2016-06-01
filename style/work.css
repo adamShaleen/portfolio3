@@ -1,0 +1,39 @@
+.project_icons_mobile_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_icon_mobile {
+    background-size: cover !important;
+    background-position: center !important;
+    height: 36vh;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#project_icon_1 {
+    background: url('../img/placeholder.jpg');
+}
+
+#project_icon_2 {
+    background: url('../img/dw_title.png');
+}
+
+#project_icon_3 {
+    background: url('../img/archer.png');
+}
+
+#project_icon_4 {
+    background: url('../img/Breakout.png');
+}
+
+#project_icon_5 {
+    background: url('../img/pokemon.png');
+}
+
+#project_icon_6 {
+    background: url('../img/taylor.png');
+}
+
+/*=====================MEDIA QUERIES=======================*/
