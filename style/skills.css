@@ -26,3 +26,17 @@
     width: 20vw;
     height: 15vh;
 }
+
+/*================================Media Queries============================*/
+
+@media (min-width: 768px) {
+    .skills_image_desktop {
+        background: url('../img/mean.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 615px;
+        height: 503px;
+        margin-bottom: 10px;
+    }
+}
