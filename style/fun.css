@@ -7,17 +7,15 @@
     margin-bottom: 10px;
 }
 
-.fun_image_container_desktop {
-    display: flex;
-    justify-content: center;
-}
-
-.fun_image_desktop {
-    background: url('../img/hike.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.fun_video_container_desktop {
+    margin: auto;
     width: 615px;
     height: 503px;
-    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.fun_video_container_desktop video {
+    width: 100%;
+    height: 500px
 }
