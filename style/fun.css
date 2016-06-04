@@ -13,9 +13,15 @@
     height: 503px;
     background-position: center;
     background-size: cover;
+    font-family: Yantramanav;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding-top: 60px;
 }
 
 .fun_video_container_desktop video {
     width: 100%;
-    height: 500px
+    /*height: 500px*/
 }
