@@ -86,12 +86,17 @@
     .nav_dropdown_mobile {
         display: none;
     }
+    .nav_container {
+        text-align: none;
+    }
     .nav_desktop {
-        display: block;
+        display: flex;
+        justify-content: space-between;
         font-size: 30px;
         margin: auto;
         padding-top: 15px;
-        padding-bottom: 15px;
+        /*padding-bottom: 15px;*/
+        padding-left: 15px;
         padding-right: 15px;
         font-family: Yantramanav;
     }
