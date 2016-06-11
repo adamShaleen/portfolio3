@@ -7,7 +7,7 @@ body {
 .home_title_container_mobile {
     position: absolute;
     width: 100%;
-    top: 77vh;
+    top: 85vh;
     color: white;
     text-align: center;
     font-size: 7vw;
@@ -20,12 +20,21 @@ body {
     display: none;
 }
 
+background {
+    display: none;
+}
+
 /*==================MEDIA QUERIES=========================================*/
 
 @media (min-width: 768px) {
     .home_title_container_mobile {
         display: none;
     }
+
+background {
+    display: block;
+}
+
     .home_title_container_desktop {
         display: flex;
         justify-content: center;
