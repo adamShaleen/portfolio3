@@ -10,7 +10,7 @@
 .fun_video_container_desktop {
     margin: auto;
     width: 615px;
-    height: 503px;
+    height: 450px;
     background-position: center;
     background-size: cover;
     font-family: Yantramanav;
@@ -19,9 +19,9 @@
     text-shadow: 1px 1px black;
     text-align: center;
     padding-top: 60px;
+    margin-bottom: 60px;
 }
 
 .fun_video_container_desktop video {
     width: 100%;
-    /*height: 500px*/
 }

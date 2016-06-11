@@ -1,3 +1,9 @@
+body {
+    background: url("../img/forest.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .home_title_container_mobile {
     position: absolute;
     width: 100%;
@@ -31,8 +37,6 @@
         font-family: Yantramanav;
         font-size: 50px;
         text-shadow: 1px 1px black;
-        /*background: black;
-        opacity: .75;*/
     }
     .home_title_container_desktop p {
         margin: 0;

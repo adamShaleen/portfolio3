@@ -32,8 +32,114 @@
     background: url('../img/pokemon.png');
 }
 
-#project_icon_6 {
-    background: url('../img/taylor.png');
+.workLinks {
+    display: none;
+}
+
+.workLinks a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.workLinks a:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.workLinks a:visited {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black;
+
 }
 
 /*=====================MEDIA QUERIES=======================*/
+
+@media(min-width: 768px) {
+    .workLinks {
+        display: block;
+        margin: auto;
+        text-align: justify;
+        font-family: Yantramanav;
+        color: white;
+        text-shadow: 1px 1px black;
+        margin-left: 10vw;
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+}
+
+@media(min-width: 900px) {
+    .workLinks {
+        margin-left: 16vw;
+    }
+}
+
+@media(min-width: 1000px) {
+    .workLinks {
+        margin-left: 19vw;
+    }
+}
+
+@media(min-width: 1100px) {
+    .workLinks {
+        margin-left: 22vw;
+    }
+}
+
+@media(min-width: 1200px) {
+    .workLinks {
+        margin-left: 24vw;
+    }
+}
+
+@media(min-width: 1300px) {
+    .workLinks {
+        margin-left: 26vw;
+    }
+}
+
+@media(min-width: 1400px) {
+    .workLinks {
+        margin-left: 28vw;
+    }
+}
+
+@media(min-width: 1500px) {
+    .workLinks {
+        margin-left: 29vw;
+    }
+}
+
+@media(min-width: 1600px) {
+    .workLinks {
+        margin-left: 31vw;
+    }
+}
+
+@media(min-width: 1700px) {
+    .workLinks {
+        margin-left: 32vw;
+    }
+}
+
+@media(min-width: 1800px) {
+    .workLinks {
+        margin-left: 33vw;
+    }
+}
+
+@media(min-width: 1900px) {
+    .workLinks {
+        margin-left: 34vw;
+    }
+}
+
+@media(min-width: 2100px) {
+    .workLinks {
+        margin-left: 35vw;
+    }
+}
