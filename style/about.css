@@ -47,6 +47,11 @@
         display: block;
         height: 100%;
     }
+
+    .desktop_wolf {
+        text-align: center;
+    }
+
     .wolf_row_container {
         display: flex;
         justify-content: center;
