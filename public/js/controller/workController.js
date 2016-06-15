@@ -2,9 +2,7 @@ angular.module('adamShaleen').controller('workController', function($scope, serv
 
     // Carousel of project icons
     $(document).ready(function() {
-        $('.carousel_icons_mobile').slick({
-            // insert something!
-        });
+        $('.work_icons_mobile').slick();
     });
 
 });  // closing tag

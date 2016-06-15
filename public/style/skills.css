@@ -1,4 +1,4 @@
-.skills_icons_mobile {
+/*.skills_icons_mobile {
     background: url('../img/meanstack.svg');
     margin: auto;
     width: 80%;
@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 10px;
-}
+}*/
 
 .skills_icon_container_desktop {
     display: flex;
