@@ -32,6 +32,10 @@
     margin-bottom: 0;
 }
 
+.skills_icons_mobile {
+    margin-bottom: -38px;
+}
+
 /*================================Media Queries============================*/
 
 @media (min-width: 768px) {

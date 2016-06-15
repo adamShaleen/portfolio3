@@ -56,6 +56,10 @@
 
 }
 
+.work_icons_mobile {
+    margin-bottom: 60px;
+}
+
 /*=====================MEDIA QUERIES=======================*/
 
 @media(min-width: 768px) {
