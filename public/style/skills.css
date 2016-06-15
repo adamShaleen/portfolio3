@@ -26,6 +26,12 @@
     height: 15vh;
 }
 
+/*Figure out how to remove bottom margin*/
+#project_icon_mobile {
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+
 /*================================Media Queries============================*/
 
 @media (min-width: 768px) {
